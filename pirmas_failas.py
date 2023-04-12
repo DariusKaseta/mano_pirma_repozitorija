@@ -1,1 +1,5 @@
-print("Labas")
+# print("Labas")
+
+
+textas = "Labas"
+print(textas)
