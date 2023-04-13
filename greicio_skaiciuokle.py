@@ -1,28 +1,28 @@
 
 def greitis():
     
-    x = int(input('Iveskite greiti:'))
+    x = float(input('Įveskite greitį:'))
     
-    if x <= 50 and x <= 53:
-        return(x, 'leistinas greitis')
-    elif x > 54 and x <= 59:
-        return ('greitis', x, ', 1 taskas')
-    elif x > 59 and x <= 64:
-        return ('greitis', x, ', 2 taskai')
-    elif x > 64 and x <= 69:
-        return ('greitis', x, ', 3 taskai')
-    elif x > 69 and x <= 74:
-        return ('greitis', x, ', 4 taskai')
-    elif x > 74 and x <= 79:
-        return ('greitis', x, ', 5 taskai')
-    elif x > 79 and x <= 84:
-        return ('greitis', x, ', 6 taskai')
-    elif x > 84 and x <= 89:
-        return ('greitis', x, ', 7 taskai')
-    elif x > 89 and x <= 90:
-        return ('greitis', x, ', 8 taskai, atimamos teises')
+    if x <= 50.0 and x <= 53.0:
+        return (x, 'leistinas greitis')
+    elif x > 54.0 and x <= 59.0:
+        return ('greitis', x, ', 1 taškas')
+    elif x > 59.0 and x <= 64.0:
+        return ('greitis', x, ', 2 taškai')
+    elif x > 64.0 and x <= 69.0:
+        return ('greitis', x, ', 3 taškai')
+    elif x > 69.0 and x <= 74.0:
+        return ('greitis', x, ', 4 taškai')
+    elif x > 74.0 and x <= 79.0:
+        return ('greitis', x, ', 5 taškai')
+    elif x > 79.0 and x <= 84.0:
+        return ('greitis', x, ', 6 taškai')
+    elif x > 84.0 and x <= 89.0:
+        return ('greitis', x, ', 7 taškai')
+    elif x > 89.0 and x <= 90.0:
+        return ('greitis', x, ', 8 taškai, atimamos teisės')
     else:
-        return ('Virsijote leistina greiti, Jusu greitis:', x, 'Ispejimas')
+        return ('Viršijote leistiną greitį, Jūsų greitis:', x, 'įspėjimas')
 
 print(greitis())
 
