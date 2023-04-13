@@ -3,7 +3,7 @@ def greitis():
     
     x = int(input('Iveskite greiti:'))
     
-    if x <= 50:
+    if x <= 50 and x <= 53:
         return(x, 'leistinas greitis')
     elif x > 54 and x <= 59:
         return ('greitis', x, ', 1 taskas')
@@ -22,7 +22,7 @@ def greitis():
     elif x > 89 and x <= 90:
         return ('greitis', x, ', 8 taskai, atimamos teises')
     else:
-        return ('virsijote leistina greiti, Jusu greitis:', x,)
+        return ('Virsijote leistina greiti, Jusu greitis:', x, 'Ispejimas')
 
 print(greitis())
 
