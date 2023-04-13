@@ -19,7 +19,7 @@ def greitis():
         return ('greitis', x, ', 6 taškai')
     elif x > 84.0 and x <= 89.0:
         return ('greitis', x, ', 7 taškai')
-    elif x > 89.0 and x <= 90.0:
+    elif x > 89.0:
         return ('greitis', x, ', 8 taškai, atimamos teisės')
     else:
         return ('Viršijote leistiną greitį, Jūsų greitis:', x, 'įspėjimas')
