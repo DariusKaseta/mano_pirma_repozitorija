@@ -1,3 +1,0 @@
-vardas = input("Iveskite savo varda ir pavarde: ")
-
-simboliu_sk = vardas.len()
