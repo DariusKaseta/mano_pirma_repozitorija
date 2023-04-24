@@ -1,5 +1,3 @@
-import math
-
 from geometrija.apskritimas import apskritimo_plotas as a_plotas
 from geometrija.kvadratas import kvadrato_plotas as k_plotas
 
