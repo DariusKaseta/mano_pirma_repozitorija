@@ -1,0 +1,31 @@
+2023-04-26 10:29:34,883, __main__, INFO, PERSPEJIMAS
+2023-04-26 10:34:14,671, __main__, INFO, PERSPEJIMAS
+2023-04-26 10:34:14,672, __main__, INFO, kuriamo produkto pavadinimas=daiktas
+2023-04-26 10:34:14,672, __main__, INFO, kuriamo produkto pavadinimas=kitas daiktas
+2023-04-26 10:34:14,672, __main__, INFO, kuriamo produkto kaina=1.99
+2023-04-26 10:35:31,311, __main__, INFO, PERSPEJIMAS
+2023-04-26 10:35:31,312, __main__, INFO, kuriamo produkto pavadinimas=daiktas
+2023-04-26 10:35:31,312, __main__, INFO, kuriamo produkto pavadinimas=kitas daiktas
+2023-04-26 10:35:31,312, __main__, INFO, kuriamo produkto kaina=1.99
+2023-04-26 10:47:01,602, __main__, DEBUG, PERSPEJIMAS
+2023-04-26 10:47:01,602, __main__, INFO, kuriamo produkto pavadinimas=daiktas
+2023-04-26 10:47:01,606, __main__, INFO, kuriamo produkto pavadinimas=kitas daiktas
+2023-04-26 10:47:01,607, __main__, INFO, kuriamo produkto kaina=1.99
+2023-04-26 10:50:22,782, __main__, DEBUG, PERSPEJIMAS
+2023-04-26 10:50:22,782, __main__, INFO, kuriamo produkto pavadinimas=daiktas
+2023-04-26 10:50:22,786, __main__, INFO, kuriamo produkto pavadinimas=kitas daiktas
+2023-04-26 10:50:22,787, __main__, INFO, kuriamo produkto kaina=1.99
+2023-04-26 10:51:48,361, __main__, DEBUG, PERSPEJIMAS
+2023-04-26 10:51:48,362, __main__, INFO, kuriamo produkto pavadinimas=daiktas
+2023-04-26 10:51:48,367, __main__, INFO, kuriamo produkto pavadinimas=kitas daiktas
+2023-04-26 10:51:48,368, __main__, INFO, kuriamo produkto kaina=1.99
+2023-04-26 10:55:31,259, __main__, DEBUG, PERSPEJIMAS
+2023-04-26 10:55:31,259, __main__, INFO, kuriamo produkto pavadinimas=daiktas
+2023-04-26 10:55:31,264, __main__, INFO, kuriamo produkto pavadinimas=kitas daiktas
+2023-04-26 10:55:31,265, __main__, INFO, kuriamo produkto kaina=1.99
+2023-04-26 10:55:31,266, __main__, ERROR, KLAIDA: division by zero
+Traceback (most recent call last):
+  File "/Users/ciliukas/CodeAcademy/mano_pirma_repozitorija/loggeris.py", line 33, in <module>
+    skaicius = 10 / 0
+               ~~~^~~
+ZeroDivisionError: division by zero
