@@ -16,7 +16,7 @@ while True:
     if event == sg.WINDOW_CLOSED:
         break
     window ['confirmation'].update(
-        f"{values['vardas']}-{values['pavarde']} gime " + \
+        f"{values['vardas']} {values['pavarde']} gime " + \
         f"{values['metai']}-{values['menuo']}-{values['diena']}"
     )
 
