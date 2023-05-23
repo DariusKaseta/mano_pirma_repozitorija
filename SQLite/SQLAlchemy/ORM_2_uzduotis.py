@@ -178,7 +178,7 @@ def add_product_to_order():
         order_product = ProductOrder(order_id=order_id, product_id=product_id, quantity=quantity)
         session.add(order_product)
     except SQLAlchemyError as e:
-        print(f"Erros: {e}")
+        print(f"Errors: {e}")
     else:
         session.commit()
         print(f"Product successfully added to Order")
